@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso HTML5-CSS3</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container shadow">
+        <header>
+            <div class="row align-items-center">
+                <div class="col-3"><img src="img/376-3767844_hello-kitty-logo-png-transparent-png.png" alt="logo" width="250"></div>
+                <div class="col-9">
+                    <span id="btnmenu" onclick="opendrawer()">&#9776;</span>
+                    <nav id="menu">
+                        <ul class="text-right">
+                            <li>
+                                <a href="index.html">
+                                    Home
+                                </a>
+                            </li>
+                            <li>
+                                <a href="parrafos.html">
+                                    Párrafos
+                                </a>
+                            </li>
+                            <li>
+                                <a href="enlaces.html">
+                                    Enlaces
+                                </a>
+                            </li>
+                            <li>
+                                <a href="listas.html">
+                                    Listas
+                                </a>
+                            </li>
+                            <li>
+                                <a href="tablas.html">
+                                    Tablas
+                                </a>
+                            </li>
+                            <li>
+                                <a href="formularios.html">
+                                    Formularios
+                                </a>
+                            </li>
+                            <li>
+                                <a href="multimedia.html">
+                                    Multimedia
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+
+
+        </header>
+        <main class="shadow">
+            <div class="px-3">
+                <h1 class="text-center bg-azul-o text-white py-3">HTML5 & CSS3</h1>
+            </div>
+            <div class="px-3">
+                <hr>
+            </div>
+            <div class="p-3">
+                <div id="parrafos" class="py-3">
+                    <h2 class="text-center">PÁRRAFOS</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque eveniet odio saepe facere hic
+                        expedita veniam optio totam autem, iure ullam distinctio laboriosam natus et debitis omnis
+                        recusandae! Maxime, minima.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque eveniet odio saepe facere hic
+                        expedita veniam optio totam autem, iure ullam distinctio laboriosam natus et debitis omnis
+                        recusandae! Maxime, minima.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque eveniet odio saepe facere hic
+                        expedita veniam optio totam autem, iure ullam distinctio laboriosam natus et debitis omnis
+                        recusandae! Maxime, minima.</p><Br />Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Ullam itaque illum placeat tempora nulla natus. Quam quia consequuntur commodi, odio incidunt
+                    laboriosam maxime blanditiis eaque id inventore totam accusamus asperiores!</Br />Lorem ipsum dolor
+                    sit amet consectetur adipisicing elit. Animi ipsa, asperiores fugiat eligendi vel quae temporibus
+                    minus praesentium enim dolor aliquid esse suscipit ab modi aliquam tempora eaque molestiae expedita
+                    <h1>Encabezado 1</h1>
+                    <h2>Encabezado 2</h2>
+                    <h3>Encabezado 3</h3>
+                    <h4>Encabezado 4</h4>
+                    <h5>Encabezado 5</h5>
+                    <h6>Encabezado 6</h6>
+                    <h2>Negrita y Cursiva</h2>
+                    <p>Pra poner negrita utilizamos la etiqueta strong, y para cursiva em: <br />
+                        Esto es una <strong>negrita</strong><br />
+                        Esto es una <em>cursiva</em>
+                    </p>
+                    <p>Para hacer un superindice se utiliza la etiqueta <span class="etiqueta">sup</span> y <span
+                            class="etiqueta">sub</span>. Ejemplo:</p>
+                    <p>x <sup>2</sup> y x <sub>2</sub></p>
+                    <p>Para realizar una abreviatura se utiliza la etiqueta <span class="etiqueta">abbr</span></p>
+                    <abbr title="Organizacion de las naciones unidas">ONU</abbr>
+                    <p>En esta practica hemos utilizado dos etiquetas más relevantes. Una para realizar bloques <span
+                            class="etiqueta">div</span> y para realizar cajas inline utilizamos <span
+                            class="etiqueta">span</span> </p>
+
+
+
+
+
+                    <div>
+
+
+                    </div>
+
+
+
+        </main>
+        <footer>
+            <h1 class="bg-azul-o text-center text-white py-3">&copy; Irene Martín</h1>
+        </footer>
+    </div>
+    <script>
+        function opendrawer() {
+            document.getElementById('menu').style.display = 'block';
+            document.getElementById('menu').style.witdh = '100%';
+        }
+    </script>
+</body>
+
+</html>
