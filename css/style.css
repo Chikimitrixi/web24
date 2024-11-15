@@ -238,7 +238,8 @@ h1 {
     list-style-type: decimal;
 }
 #listas .customico li li{
-    list-style-image: url(".../img/estrella.png");
+    list-style-image: url("../img/corazon.png");
+
 }
 #listas .customico li li li{
     list-style: none;
@@ -306,36 +307,62 @@ h1 {
     background-color: rgb(255, 0, 102);
     color: rgb(255, 180, 234);
 }
-.LMSG { 
-    background-color:#E6DC96; 
+.horario {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #f0f0f0cf;
+    color: #197f86;
 }
-.PROG { 
-    background-color:#6EC4E8; 
+.dam {
+    font-size: 26px;
+    font-style: italic;
+    
 }
-.SISI { 
-    background-color: #799D86; 
+.formato {
+    color: #197f86;
 }
-.DASP { 
-    background-color: #F1DB5C; 
+table.horario td {
+    color: black;
+    
 }
-.IPE  { 
-    background-color: #ff6666; 
+table.horario th{
+    background-color: #f0f0f0cf;
+    color: #008080;
 }
-.PIMD { 
-    background-color:#F3B381 ; 
+.pimd {
+    background-color: rgb(255, 177, 81);
 }
-.ENDE {
-     background-color: #C8A2D8;
+.bdd {
+    background-color: #81ff80;
 }
-.IPCG { 
-    background-color:#eba458; 
+.sasp {
+    background-color: #28c8c8;
 }
-.BDD  { 
-    background-color:#A8E6A3 ; 
+.dasp {
+    background-color: #ffff63;
 }
-.SASP { 
-    background-color:#88D7C2 ; 
+.prog {
+    background-color: #64b4ef;
 }
+.sisi {
+    background-color: #65aa97;
+}
+.lmsg {
+    background-color: #d2d36c;
+}
+.ipcg {
+    background-color: #ffa264;
+}
+.ende {
+    background-color: #c9a0c8;
+}
+.ipe {
+    background-color: #fe8081;
+}
+
 .col3 {
     width: 33.3%;
     float: left;
